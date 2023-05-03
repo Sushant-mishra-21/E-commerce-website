@@ -5,9 +5,10 @@ import Home from './pages/Home';
 
 function App() {
   return (
-   <div className='font-bodyFont'>
+   <div className='font-bodyFont' style={{backgroundColor:"#fdfbd2"}}>
     <Header/>
     <Home/>
+    
    </div>
   );
 }
